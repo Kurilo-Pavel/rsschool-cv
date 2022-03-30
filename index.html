@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HTML, CSS & Git Basics</title>
+  <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+<div class="board">
+  <div class="right"></div>
+  <div class="centralField">
+    <img alt="KuriloPavel" src="image/131.jpg">
+
+    <header class="header">
+      <h1>
+        <a name="contacts"></a>
+        Kurilo Pavel
+      </h1>
+      <h3>Frontend Developer</h3>
+    </header>
+
+    <section class="contacts">
+      <h2>Contacts</h2>
+      <ul>
+        <li>Location:<span>Grodno, Belarus</span></li>
+        <li>Phone: <span>+375 (29) 7839712</span></li>
+        <li>E-mail: <span>kurilo.pavel8@gmail.com</span></li>
+      </ul>
+      <ul>
+        <li> Skype: <span>pavel_kurilo</span></li>
+        <li>Discord:<span>Pavel(@Kurilo-Pavel)</span></li>
+        <li>GitHub:<a href="https://github.com/Kurilo-Pavel">Kurilo-Pavel</a></li>
+
+      </ul>
+
+    </section>
+
+    <nav class="menu">
+      <!--    <a href="#contacts">Contacts</a>-->
+      <a href="#contacts">Contacts</a>
+      <a href="#aboutMe">About me</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#codeExample">Code Example</a>
+      <a href="#courses">Courses</a>
+      <a href="#education">Education</a>
+      <a href="#english">English</a>
+    </nav>
+
+    <section class="aboutMe">
+      <a name="aboutMe"></a>
+      <h2>About me</h2>
+      <p>I like solving nontrivial problems, the ones that require both logic and acquired knowledge, the kind of
+        problems
+        which
+        can be revisited again. I like seeing the products of my work. For what it takes, I try to finish everything
+        that
+        I
+        start. In people, I value honesty, decency and punctuality. Currently, I am working diligently to improve my
+        English
+        and
+        programming skills.</p>
+    </section>
+
+    <section class="skills">
+      <a name="skills"></a>
+      <h2>Skills</h2>
+      <ul>
+        <li>Git</li>
+        <li>HTML</li>
+      </ul>
+      <ul>
+        <li>CSS</li>
+        <li>JavaScript</li>
+      </ul>
+      <ul>
+        <li>React JS</li>
+        <li>Redux</li>
+      </ul>
+      <ul>
+        <li>AutoCad</li>
+        <li>ArchiCad</li>
+      </ul>
+    </section>
+
+    <section class="projects">
+      <a name="projects"></a>
+      <h2>Projects</h2>
+    </section>
+
+    <section class="codeExample">
+      <a name="codeExample"></a>
+      <h2>Code Example</h2>
+      <pre><code>function arrayDiff(a, b) {
+        for (let i = b.length - 1; i >= 0; i--) {
+        a = a.filter(number => number !== b[i])
+        }
+        return a
+        }
+        arrayDiff([1, 2, 2, 2, 3], [2, 1])
+        </code></pre>
+    </section>
+
+    <section class="courses">
+      <a name="courses"></a>
+      <h2>Courses</h2>
+      <ul>
+        <li>Web development using HTML, CSS and JavaScript (IT-Academy Grodno)</li>
+        <li>Web application development using JavaScript (IT-Academy Grodno)</li>
+        <li>Web application development using React.js (IT-Academy Grodno)</li>
+      </ul>
+    </section>
+
+    <section class="education">
+      <a name="education"></a>
+      <h2>Education</h2>
+      <p>Bachelor Degree in Civil Engineering, Hrodna State University</p>
+    </section>
+
+    <section class="english">
+      <a name="english"></a>
+      <h2>English</h2>
+      <p>Level: A2</p>
+    </section>
+  </div>
+  <div class="left"></div>
+  <footer></footer>
+</div>
+</body>
+</html>
